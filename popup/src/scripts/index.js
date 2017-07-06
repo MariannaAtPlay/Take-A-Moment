@@ -19,7 +19,7 @@ render(
   <Provider store={proxyStore}>
     <App/>
   </Provider>,
-    document.getElementById('app')
+  document.getElementById('app')
 );
 
 

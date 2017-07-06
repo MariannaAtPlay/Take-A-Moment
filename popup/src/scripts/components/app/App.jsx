@@ -25,7 +25,7 @@ const muiTheme = getMuiTheme({
     accent2Color: grey400,
     accent3Color: grey400,
     textColor: grey700,
-    alternateTextColor: grey700,
+    alternateTextColor: grey400,
     canvasColor: grey400,
     pickerHeaderColor: pink700
   },
@@ -91,7 +91,7 @@ class App extends Component {
             <Card>
               <CardText>
                 <h2 style={{color: grey700}}>When would you like to take a break?</h2>
-                <TimePicker value={this.props.time} hintText="12hr Format" onChange={this.handleChange}/>
+                <TimePicker value={this.props.time} hintText="12hr Format" onChange={this.handleChange} />
                 <h2 style={{color: grey700}}>
                   {this.state.timeLeft && 
                   `Your break is coming up in ${this.millisToMinutesAndSeconds(this.state.timeLeft)} minutes`} 

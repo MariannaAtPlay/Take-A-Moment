@@ -1,6 +1,6 @@
 # Take-A-Moment
 
-Chrome browser extension that utilizes React, Redux and react-chrome-redux libraries to create a tool to remind the user to take breaks. It persists across extension instances and utilizes both a browser action and a content script. Built in 3 days.
+Chrome browser extension that utilizes React, Redux and react-chrome-redux libraries to create a tool to remind the user to take breaks. It persists across extension instances and utilizes both a browser action and a content script. 
 
 Gratitude and credit for the inspiration and helpful examples goes to Tyler Shaddix
 at https://github.com/tshaddix/react-chrome-redux-examples

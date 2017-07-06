@@ -3,7 +3,8 @@
   "name": "Take A Moment",
   "description": "React, Chrome, and Redux example",
   "version": "0.0.0.1",
-  "icons": { "16": "HeartIcon.png"
+  "icons": { 
+    "16": "HeartIcon.png"
   },
   "background": {
     "scripts": [
